@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  web:
+    container_name: pdtfk-web
+    restart: always
+    build: .
+    volumes:
+      - type: bind
+        source: ./app/
+        target: /var/www/html/
+    ports:
+      - 80:80
+volumes:
+  pdftk:
