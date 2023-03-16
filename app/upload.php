@@ -26,7 +26,7 @@ try {
     $output=null;
     $retval=null;
 
-    exec('pdftk '.$upload_path.' output '.$convert_path. '', $output, $retval);
+    exec('pdftk '.escapeshellarg($upload_path).' output '.$convert_path. '', $output, $retval);
 
     //  Check if execution was successful
     if($retval !== 0) {
