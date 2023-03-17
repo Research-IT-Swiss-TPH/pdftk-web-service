@@ -82,7 +82,7 @@ namespace swisstph\tertek\pdftk;
 
           <a id="download-button" href="#download" class="button is-large is-fullwidth is-success is-light is-hidden">Download</a>
           
-          <div class="has-text-right"><small><a target="_blank" href="https://gitlab.swisstph.ch/tertek/pdftk-web-service/-/issues/new"><i class="fas fa-bug"></i> Found a bug?</a></small></div>
+          <div class="has-text-right"><small><a target="_blank" href="https://github.com/SwissTPH/pdftk-web-service/issues/new"><i class="fas fa-bug"></i> Found a bug?</a></small></div>
 
         </form>          
 
@@ -100,7 +100,7 @@ namespace swisstph\tertek\pdftk;
         </p>
       </div>
       <div class="content has-text-centered">
-        <p><a  target="_blank" href="https://gitlab.swisstph.ch/tertek/pdftk-web-service"><i class="fab fa-gitlab"></i></a></p>
+        <p><a  target="_blank" href="https://github.com/SwissTPH/pdftk-web-service"><i class="fab fa-github"></i></a></p>
       </div>
     </footer>
     <script src="lib/jquery.min.js"></script>    

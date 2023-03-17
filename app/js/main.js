@@ -104,7 +104,7 @@ $( document ).ready(function() {
 							value: e.loaded,
 							max: e.total,
 						});
-						$('#progress-status').text("Success! Your download is ready.");
+						$('#progress-status').text("pdftk success! Please a little more until your download is ready...");
 						}
 					}, false);
 					}
